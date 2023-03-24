@@ -13,15 +13,15 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }}><Pressable onPress={() => {
-        navigation.navigate("login");
+        navigation.navigate("Untitled6");
       }}><Text style={styles.iYiynEEV}>1</Text></Pressable><Pressable onPress={() => {
-        navigation.navigate("Login");
+        navigation.navigate("Untitled7");
       }}><Text style={styles.oolYNOIB}>2</Text></Pressable><Pressable onPress={() => {
-        navigation.navigate("login");
+        navigation.navigate("aboutTheApp");
       }}><Text style={styles.WzJuCRBU}>3</Text></Pressable><Pressable onPress={() => {
-        navigation.navigate("login");
+        navigation.navigate("accountSettings");
       }}><Text style={styles.dXFRgRRy}>4</Text></Pressable><Pressable onPress={() => {
-        navigation.navigate("login2");
+        navigation.navigate("addBankAccount");
       }}><Text style={styles.jCimrCQq}>5</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
