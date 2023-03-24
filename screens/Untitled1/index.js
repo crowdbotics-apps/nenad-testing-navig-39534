@@ -16,7 +16,9 @@ const Untitled1 = () => {
         navigation.navigate("login");
       }}><Text style={styles.iYiynEEV}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Login");
-      }}><Text style={styles.oolYNOIB}>Lorem ipsum…</Text></Pressable><Text style={styles.WzJuCRBU}>Lorem ipsum…</Text><Pressable onPress={() => {
+      }}><Text style={styles.oolYNOIB}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("login");
+      }}><Text style={styles.WzJuCRBU}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("login");
       }}><Text style={styles.dXFRgRRy}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("login2");
