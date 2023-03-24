@@ -18,7 +18,7 @@ const Untitled6 = () => {
         navigation.navigate("privacyPolicy");
       }}><Text style={styles.sIsvneyu}>Privacy</Text></Pressable><Text style={styles.ZNpkPJeD}>Log out</Text><Pressable onPress={() => {
         navigation.navigate("addCardDetails");
-      }}><Text style={styles.uTUcdNgH}>Payments</Text></Pressable><Text style={styles.UVqIiQhh}>log out</Text><Text style={styles.QTvZrQwd}>Lorem ipsum…</Text><Text style={styles.tdSsYKjJ}>Lorem ipsum…</Text></ScrollView>
+      }}><Text style={styles.uTUcdNgH}>Payments</Text></Pressable><Text style={styles.UVqIiQhh}>log out</Text><Text style={styles.QTvZrQwd}>Lorem ipsum…</Text><Text style={styles.tdSsYKjJ}>Lorem ipsum…</Text><Text style={styles.ssjyBDDo}>Lorem ipsum…</Text><Text style={styles.HPtjMPKw}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -62,13 +62,27 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   QTvZrQwd: {
+    width: 118,
+    height: 62,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  tdSsYKjJ: {
     width: 100,
     height: 50,
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0
   },
-  tdSsYKjJ: {
+  ssjyBDDo: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  HPtjMPKw: {
     width: 100,
     height: 50,
     lineHeight: 14,
