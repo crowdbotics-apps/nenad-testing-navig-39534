@@ -1,7 +1,9 @@
+import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import { Text, StyleSheet, View, ScrollView, SafeAreaView, TextInput, Pressable } from "react-native";
 
-const AddCardDetailsScreen = params => {
+const AddCardDetailsScreen = () => {
+  const navigation = useNavigation();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [address1, setAddress1] = useState("");
@@ -73,7 +75,9 @@ const AddCardDetailsScreen = params => {
           </View>
         </View>
         <View style={styles.btnContainer}>
-          <Pressable style={styles.btn}>
+          <Pressable style={styles.btn} onPress={() => {
+          navigation.navigate("addPaymentMethod");
+        }}>
             <Text style={styles.btnText}>Update</Text>
           </Pressable>
         </View>

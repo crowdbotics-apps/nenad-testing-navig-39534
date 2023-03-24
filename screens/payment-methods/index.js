@@ -1,11 +1,14 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import React from "react";
 import { Text, View, StyleSheet, Image, ScrollView } from "react-native";
 
 const PaymentMethods = () => {
+  const navigation = useNavigation();
   return <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Image source={require("./assets/back.png")} style={styles.back} />
-        <Text style={styles.heading}>Payment</Text>
+        <Pressable onPress={{}}><Text style={styles.heading}>Payment</Text></Pressable>
         <Text />
       </View>
       <View style={styles.reviewContainer}>
@@ -36,7 +39,9 @@ const PaymentMethods = () => {
         <View style={styles.walletCard}>
           <Image source={require("./assets/pay.png")} style={styles.image} />
           <View style={styles.walletCarder}>
-            <Text style={styles.eventName}>Paypal - john***@g***.com</Text>
+            <Pressable onPress={() => {
+            navigation.navigate();
+          }}><Text style={styles.eventName}>Paypal - john***@g***.com</Text></Pressable>
             <Text style={styles.eventType}>Added on Nov 23, 2022</Text>
           </View>
         </View>
