@@ -1,7 +1,10 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import React, { useState, useEffect } from "react";
 import { Text, StyleSheet, View, ScrollView } from "react-native";
 
-const TermsAndConditionsScreen = params => {
+const TermsAndConditionsScreen = () => {
+  const navigation = useNavigation();
   const [lastUpdated, setLastUpdated] = useState(null);
   const [firstPara, setFirstPara] = useState(null);
   const [secondPara, setSecondPara] = useState(null);
@@ -22,7 +25,9 @@ const TermsAndConditionsScreen = params => {
           <Text style={styles.policyText}>{firstPara}</Text>
         </View>
         <View style={styles.policyContainer}>
-          <Text style={styles.policyText}>{secondPara}</Text>
+          <Pressable onPress={() => {
+          navigation.navigate("Terms and Conditions");
+        }}><Text style={styles.policyText}>{secondPara}</Text></Pressable>
         </View>
         <View style={styles.policyContainer}>
           <Text style={styles.policyText}>{thirdPara}</Text>
