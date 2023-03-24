@@ -18,7 +18,7 @@ const Untitled6 = () => {
         navigation.navigate("privacyPolicy");
       }}><Text style={styles.sIsvneyu}>Privacy</Text></Pressable><Text style={styles.ZNpkPJeD}>Log out</Text><Pressable onPress={() => {
         navigation.navigate("addCardDetails");
-      }}><Text style={styles.uTUcdNgH}>Payments</Text></Pressable></ScrollView>
+      }}><Text style={styles.uTUcdNgH}>Payments</Text></Pressable><Text style={styles.UVqIiQhh}>log out</Text><Text style={styles.QTvZrQwd}>Lorem ipsum…</Text><Text style={styles.tdSsYKjJ}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -52,6 +52,27 @@ const styles = StyleSheet.create({
     height: 68,
     lineHeight: 14,
     fontSize: 30,
+    borderRadius: 0
+  },
+  UVqIiQhh: {
+    width: 111,
+    height: 49,
+    lineHeight: 14,
+    fontSize: 30,
+    borderRadius: 0
+  },
+  QTvZrQwd: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  tdSsYKjJ: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
     borderRadius: 0
   }
 });
