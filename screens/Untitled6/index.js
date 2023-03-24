@@ -14,7 +14,9 @@ const Untitled6 = () => {
       flex: 1
     }}><Pressable onPress={() => {
         navigation.navigate("termsAndConditions");
-      }}><Text style={styles.MljvSVwc}>Terms</Text></Pressable><Text style={styles.sIsvneyu}>Privacy</Text><Text style={styles.ZNpkPJeD}>Log out</Text></ScrollView>
+      }}><Text style={styles.MljvSVwc}>Terms</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("privacyPolicy");
+      }}><Text style={styles.sIsvneyu}>Privacy</Text></Pressable><Text style={styles.ZNpkPJeD}>Log out</Text></ScrollView>
     </SafeAreaView>;
 };
 

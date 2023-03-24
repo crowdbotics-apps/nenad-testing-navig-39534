@@ -1,7 +1,10 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import React, { useState, useEffect } from "react";
 import { Text, StyleSheet, View, ScrollView } from "react-native";
 
-const PrivacyPolicyScreen = params => {
+const PrivacyPolicyScreen = () => {
+  const navigation = useNavigation();
   const [lastUpdated, setLastUpdated] = useState(null);
   const [firstPara, setFirstPara] = useState(null);
   const [secondPara, setSecondPara] = useState(null);
@@ -19,7 +22,9 @@ const PrivacyPolicyScreen = params => {
           <Text style={styles.bold}>{lastUpdated}</Text>
         </View>
         <View style={styles.policyContainer}>
-          <Text style={styles.policyText}>{firstPara}</Text>
+          <Pressable onPress={() => {
+          navigation.navigate("Privacy Policy");
+        }}><Text style={styles.policyText}>{firstPara}</Text></Pressable>
         </View>
         <View style={styles.policyContainer}>
           <Text style={styles.policyText}>{secondPara}</Text>
