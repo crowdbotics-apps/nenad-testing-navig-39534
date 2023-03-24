@@ -14,15 +14,15 @@ const Untitled1 = () => {
       flex: 1
     }}><Pressable onPress={() => {
         navigation.navigate("login");
-      }}><Text style={styles.iYiynEEV}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
+      }}><Text style={styles.iYiynEEV}>1</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Login");
-      }}><Text style={styles.oolYNOIB}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
+      }}><Text style={styles.oolYNOIB}>2</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("login");
-      }}><Text style={styles.WzJuCRBU}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
+      }}><Text style={styles.WzJuCRBU}>3</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("login");
-      }}><Text style={styles.dXFRgRRy}>Lorem ipsum…</Text></Pressable><Pressable onPress={() => {
+      }}><Text style={styles.dXFRgRRy}>4</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("login2");
-      }}><Text style={styles.jCimrCQq}>Lorem ipsum…</Text></Pressable></ScrollView>
+      }}><Text style={styles.jCimrCQq}>5</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -34,35 +34,35 @@ const styles = StyleSheet.create({
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 20,
     borderRadius: 0
   },
   oolYNOIB: {
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 20,
     borderRadius: 0
   },
   WzJuCRBU: {
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 20,
     borderRadius: 0
   },
   dXFRgRRy: {
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 20,
     borderRadius: 0
   },
   jCimrCQq: {
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 20,
     borderRadius: 0
   }
 });
