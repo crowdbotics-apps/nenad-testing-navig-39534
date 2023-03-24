@@ -9,7 +9,7 @@ const Untitled6 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.MljvSVwc}>Lorem ipsum…</Text><Text style={styles.sIsvneyu}>Lorem ipsum…</Text><Text style={styles.ZNpkPJeD}>Lorem ipsum…</Text></ScrollView>
+    }}><Text style={styles.MljvSVwc}>Terms</Text><Text style={styles.sIsvneyu}>Privacy</Text><Text style={styles.ZNpkPJeD}>Log out</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -21,21 +21,21 @@ const styles = StyleSheet.create({
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 30,
     borderRadius: 0
   },
   sIsvneyu: {
     width: 100,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 30,
     borderRadius: 0
   },
   ZNpkPJeD: {
-    width: 100,
-    height: 50,
+    width: 135,
+    height: 60,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: 30,
     borderRadius: 0
   }
 });
