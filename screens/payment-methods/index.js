@@ -8,7 +8,9 @@ const PaymentMethods = () => {
   return <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Image source={require("./assets/back.png")} style={styles.back} />
-        <Pressable onPress={{}}><Text style={styles.heading}>Payment</Text></Pressable>
+        <Pressable onPress={() => {
+        navigation.navigate("Payments");
+      }}><Text style={styles.heading}>Payment</Text></Pressable>
         <Text />
       </View>
       <View style={styles.reviewContainer}>
