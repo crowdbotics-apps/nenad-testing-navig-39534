@@ -1,15 +1,20 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled6 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.MljvSVwc}>Terms</Text><Text style={styles.sIsvneyu}>Privacy</Text><Text style={styles.ZNpkPJeD}>Log out</Text></ScrollView>
+    }}><Pressable onPress={() => {
+        navigation.navigate("termsAndConditions");
+      }}><Text style={styles.MljvSVwc}>Terms</Text></Pressable><Text style={styles.sIsvneyu}>Privacy</Text><Text style={styles.ZNpkPJeD}>Log out</Text></ScrollView>
     </SafeAreaView>;
 };
 
