@@ -12,7 +12,7 @@ const Untitled6 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable onPress={() => {
+    }} style={styles.fUkWsKrm}><Pressable onPress={() => {
         navigation.navigate("termsAndConditions");
       }}><Text style={styles.MljvSVwc}>Terms</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("privacyPolicy");
@@ -88,6 +88,10 @@ const styles = StyleSheet.create({
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0
+  },
+  fUkWsKrm: {
+    width: 100,
+    height: 100
   }
 });
 export default Untitled6;
